@@ -12,7 +12,7 @@ countdown_with_sleep(number)
   while number > 0
     puts "#{number} SECOND(S)!\n"
     number= number -1
-    sleep(1)
+    sleep(1.seconds)
   end
   return "HAPPY NEW YEAR!"
 end
